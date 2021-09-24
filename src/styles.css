@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    height: 650px;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header__img{
+    width: 150px;
+    padding-left: 30px;
+}
+
+.header a{
+    font-size: 12px;
+    color: rgb(65, 53, 118, 0.5);
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+.header__searcher{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    font-family: 'Muli', sans-serif;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.header__searcher-input{
+    width: 150px;
+    background-color: rgb(106, 64, 223, 0.4);
+    background-image: url(./assets/searcher_icon.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    color: white;
+    height: 32%;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    font-size:  12px;
+    position: relative;
+    left: 40px;
+    text-align: center;
+    outline: none;
+}
+
+.header__searcher-btn {
+    width: 35%;
+    height: 40%;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(106, 64, 223);
+    border: 2px rgb(255, 255, 255, 0.1) solid;
+    border-radius: 25px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__description{
+    width: 30%;
+    height: 550px;
+}
+
+.main__description-title{
+    color: rgb(38, 20, 61);
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.main__description-text{
+    font-size: 12px;
+    color: rgb(65, 53, 118, 0.7);
+    margin-bottom: 25px;
+}
+
+.main__description button{
+    width: 40%;
+    height: 7%;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(106, 64, 223);
+    border: 2px rgb(255, 255, 255, 0.1) solid;
+    border-radius: 25px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main__img{
+    width: 50%;
+    height: 88%;
+}
+
+
+
+
